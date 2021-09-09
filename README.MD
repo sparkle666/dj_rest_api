@@ -1,0 +1,3 @@
+### Django Rest Framework Application
+
+Just a simple rest api...
