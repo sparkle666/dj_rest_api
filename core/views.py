@@ -7,7 +7,7 @@ from .models import Post
 
 
 class IndexAPI(APIView):
-    
+    """A class to override the get and post request..."""
 
     def get(self, request, *args, **kwargs):
         qs = Post.objects.all()
