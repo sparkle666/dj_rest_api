@@ -5,7 +5,7 @@ from rest_framework.response import Response
 
 
 class IndexAPI(APIView):
-    def get(self, reques, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
         data = {
             "name": "John",
             "age": 17,
