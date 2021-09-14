@@ -8,4 +8,5 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('', IndexAPI.as_view(), name = "index"),
     path('api-token/', obtain_auth_token, name ="obtain-token"),
+    path('rest-auth/', include('rest_auth.urls')),
 ]
